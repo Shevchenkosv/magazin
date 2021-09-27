@@ -62,7 +62,24 @@
                     </li>
                     <li><a class="right_two" href="registration.html"><img src="img/contacts.svg" alt="Контакты"></a>
                     </li>
-                    <li><a class="right_three" href="cart.html"><img src="img/bascet.svg" alt="Корзина"> </a></li>
+                    <li><a class="right_three" href="#">
+                            <img class="cartIcon" src="img/cart.png" alt="Корзина">
+                            <span class="cartIconspan">0</span>
+                        </a>
+                        <div class="basket hidden">
+                            <div class="basketRow basketHeader">
+                                <div>Название товара</div>
+                                <div>Количество</div>
+                                <div>Цена за шт.</div>
+                                <div>Итого</div>
+                            </div>
+
+                            <div class="basketTotal">
+                                Товаров в корзине на сумму:
+                                $<span class="basketTotalValue">0</span>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -163,11 +180,13 @@
                         <p class="price">$52.00</p>
                     </div>
                 </a>
-                <div class="add-box">
-                    <a class="add" href="cart.html">
-                        <img src="img/Cart.svg" alt="cart">
-                        <p class="add_txt">Add to Cart</p>
-                    </a>
+                <div data-productId="0">
+                    <div class="add-box">
+                        <a class="add" href="#">
+                            <img src="img/Cart.svg" alt="cart">
+                            <p class="add_txt">Add to Cart</p>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="item_index">
@@ -182,11 +201,13 @@
                         <p class="price">$52.00</p>
                     </div>
                 </a>
-                <div class="add-box">
-                    <a class="add" href="cart.html">
-                        <img src="img/Cart.svg" alt="cart">
-                        <p class="add_txt">Add to Cart</p>
-                    </a>
+                <div data-productId="1">
+                    <div class="add-box">
+                        <a class="add" href="#">
+                            <img src="img/Cart.svg" alt="cart">
+                            <p class="add_txt">Add to Cart</p>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="item_index">
@@ -201,11 +222,14 @@
                         <p class="price">$52.00</p>
                     </div>
                 </a>
-                <div class="add-box">
-                    <a class="add" href="cart.html">
-                        <img src="img/Cart.svg" alt="cart">
-                        <p class="add_txt">Add to Cart</p>
-                    </a>
+
+                <div data-productId="2">
+                    <div class="add-box">
+                        <a class="add" href="#">
+                            <img src="img/Cart.svg" alt="cart">
+                            <p class="add_txt">Add to Cart</p>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="item_index">
@@ -220,13 +244,14 @@
                         <p class="price">$52.00</p>
                     </div>
                 </a>
-                <div class="add-box">
-                    <a class="add" href="cart.html">
+                <div class="add-box" data-productId="3">
+                    <a class="add" href="#">
                         <img src="img/Cart.svg" alt="cart">
                         <p class="add_txt">Add to Cart</p>
                     </a>
                 </div>
             </div>
+
             <div class="item_index">
                 <a class="product_link" href="product.html">
                     <img class="card_img" src="img/prod5.jpg" alt="card_5">
@@ -239,13 +264,14 @@
                         <p class="price">$52.00</p>
                     </div>
                 </a>
-                <div class="add-box">
-                    <a class="add" href="cart.html">
+                <div class="add-box" data-productId="4">
+                    <a class="add" href="#">
                         <img src="img/Cart.svg" alt="cart">
                         <p class="add_txt">Add to Cart</p>
                     </a>
                 </div>
             </div>
+
             <div class="item_index">
                 <a class="product_link" href="product.html">
                     <img class="card_img" src="img/prod6.jpg" alt="card_6">
@@ -258,13 +284,14 @@
                         <p class="price">$52.00</p>
                     </div>
                 </a>
-                <div class="add-box">
-                    <a class="add" href="cart.html">
+                <div class="add-box" data-productId="5">
+                    <a class="add" href="#">
                         <img src="img/Cart.svg" alt="cart">
                         <p class="add_txt">Add to Cart</p>
                     </a>
                 </div>
             </div>
+
             <div class="item_index">
                 <a class="product_link" href="product.html">
                     <img class="card_img" src="img/prod7.jpg" alt="card_7">
@@ -277,8 +304,8 @@
                         <p class="price">$52.00</p>
                     </div>
                 </a>
-                <div class="add-box">
-                    <a class="add" href="cart.html">
+                <div class="add-box" data-productId="6">
+                    <a class="add" href="#">
                         <img src="img/Cart.svg" alt="cart">
                         <p class="add_txt">Add to Cart</p>
                     </a>
@@ -296,8 +323,8 @@
                         <p class="price">$52.00</p>
                     </div>
                 </a>
-                <div class="add-box">
-                    <a class="add" href="cart.html">
+                <div class="add-box" data-productId="7">
+                    <a class="add" href="#">
                         <img src="img/Cart.svg" alt="cart">
                         <p class="add_txt">Add to Cart</p>
                     </a>
@@ -315,8 +342,8 @@
                         <p class="price">$52.00</p>
                     </div>
                 </a>
-                <div class="add-box">
-                    <a class="add" href="cart.html">
+                <div class="add-box" data-productId="8">
+                    <a class="add" href="#">
                         <img src="img/Cart.svg" alt="cart">
                         <p class="add_txt">Add to Cart</p>
                     </a>
@@ -414,6 +441,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+    <script src="basket/basket.js"></script>
+    <script src="basket/ProductDTO.js"></script>
+    <script src="basket/products.js"></script>
+    <script src="basket/productsCards.js"></script>
 </body>
 
 </html>
